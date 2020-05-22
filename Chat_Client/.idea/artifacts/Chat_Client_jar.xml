@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Chat_Client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Chat_Client_jar</output-path>
+    <root id="archive" name="Chat_Client.jar">
+      <element id="module-output" name="Chat_Client" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/mysql-connector-java-8.0.19.jar" path-in-jar="/" />
+      <element id="file-copy" path="$APPLICATION_HOME_DIR$/mysql-connector-java-8.0.19.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/JDBCUtil/jdbc.properties" />
+    </root>
+  </artifact>
+</component>
